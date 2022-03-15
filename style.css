@@ -15,3 +15,8 @@
     background-color: lightgreen;
 
 }
+
+section.debug,
+footer.debug {
+    background-color: lightgray;
+}
