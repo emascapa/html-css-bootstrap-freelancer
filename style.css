@@ -1,0 +1,17 @@
+.debug [class*="col"] {
+    border: 1px solid white;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    height: 50px
+}
+
+.debug header,
+.debug main {
+    background-color: lightgray;
+
+}
+
+.debug section {
+    background-color: lightgreen;
+
+}
