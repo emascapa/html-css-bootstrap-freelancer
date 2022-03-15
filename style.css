@@ -1,4 +1,4 @@
-.debug [class*="col"] {
+.debug .row>[class*="col"] {
     border: 1px solid white;
     background-color: lightsalmon;
     border-radius: 5px;
