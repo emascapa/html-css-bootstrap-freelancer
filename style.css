@@ -39,9 +39,16 @@ img {
 .bg_hero_custom {
     background-color: var(--bg-color-hero-about);
 }
+.bg_top_footer {
+    background-color: var(--bg-color-top-footer);
+}
 
 .bg_line_dark {
     background-color: var(--font-color-dark);
+}
+
+.text_custom {
+    color: var(--bg-color-hero-about);
 }
 
 .text_dark_custom {
