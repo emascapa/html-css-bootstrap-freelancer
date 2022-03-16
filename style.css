@@ -6,12 +6,12 @@
     --color-border-line: #CCCCCC;
 }
 
-.debug .row>[class*="col"] {
+/* .debug .row>[class*="col"] {
     border: 1px solid white;
     background-color: lightsalmon;
     border-radius: 5px;
     height: 50px
-}
+} */
 
 .debug header,
 .debug main {
@@ -29,13 +29,19 @@ footer.debug {
     background-color: lightgray;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 .bg_dark_custom {
     background-color: var(--bg-color-header-footer);
 }
 .bg_hero_custom {
     background-color: var(--bg-color-hero-about);
+}
+
+.bg_line_dark {
+    background-color: var(--font-color-dark);
 }
 
 .text_dark_custom {
@@ -50,6 +56,6 @@ footer.debug {
 .line_star {
     width: calc(100vw / 10);
     height: 3px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 50px;
 }
