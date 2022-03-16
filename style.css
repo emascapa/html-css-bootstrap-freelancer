@@ -1,3 +1,11 @@
+:root {
+    --bg-color-header-footer: #2C3E50;
+    --bg-color-hero-about: #1ABC9C;
+    --font-color-dark: #333333;
+    --bg-color-top-footer: #3A546D;
+    --color-border-line: #CCCCCC;
+}
+
 .debug .row>[class*="col"] {
     border: 1px solid white;
     background-color: lightsalmon;
@@ -19,4 +27,14 @@
 section.debug,
 footer.debug {
     background-color: lightgray;
+}
+
+
+
+.bg_dark_custom {
+    background-color: var(--bg-color-header-footer);
+}
+
+.text_dark_custom {
+    color: var(--font-color-dark);
 }
