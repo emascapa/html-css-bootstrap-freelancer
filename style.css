@@ -58,6 +58,7 @@ img {
 
 #start_bootstrap img {
     width: calc(100vw / 4);
+    max-width: 200px;
 }
 
 .line_star {
